@@ -1,0 +1,2 @@
+# Design-and-Verification-of-a-Parameterized-Synchronous-FIFO-Using-Verilog-HDL-and-Xilinx-Vivado
+This project focuses on the RTL design, functional verification, synthesis, and implementation of a parameterized synchronous FIFO using Verilog HDL. It uses a single clock for read and write operations and supports configurable data width and FIFO depth, following the First-In First-Out data storage principle.
