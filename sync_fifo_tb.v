@@ -41,8 +41,6 @@ task read_data();
 endtask
 
 //create stimulus
-
-
 initial 
 begin
    $monitor("Time=%0t | data_in=%0d | data_out=%0d",
@@ -66,9 +64,7 @@ for(i = 0; i <= FIFO_DEPTH; i = i + 1)
 	read_data();
 	end
 
-// scnerio 3
-
-    
+// scnerio 3  
 for(i = 0; i < FIFO_DEPTH; i = i + 1)
 	begin
 	write_data(2**i);
